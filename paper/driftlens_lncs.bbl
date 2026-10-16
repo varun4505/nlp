@@ -1,0 +1,251 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{banerjee2002adapted}
+Banerjee, S., Pedersen, T.: An adapted {Lesk} algorithm for word sense
+  disambiguation using {WordNet}. In: Computational Linguistics and Intelligent
+  Text Processing (CICLing 2002). Lecture Notes in Computer Science, vol.~2276,
+  pp. 136--145. Springer (2002)
+
+\bibitem{benton2017ethical}
+Benton, A., Coppersmith, G., Dredze, M.: Ethical research protocols for social
+  media health research. In: Proceedings of the First ACL Workshop on Ethics in
+  Natural Language Processing. pp. 94--102. Association for Computational
+  Linguistics (2017)
+
+\bibitem{bergkirkpatrick2012empirical}
+Berg-Kirkpatrick, T., Burkett, D., Klein, D.: An empirical investigation of
+  statistical significance in {NLP}. In: Proceedings of the 2012 Joint
+  Conference on Empirical Methods in Natural Language Processing and
+  Computational Natural Language Learning. pp. 995--1005 (2012)
+
+\bibitem{berger1996maximum}
+Berger, A.L., Della~Pietra, S.A., Della~Pietra, V.J.: A maximum entropy
+  approach to natural language processing. Computational Linguistics
+  \textbf{22}(1),  39--71 (1996)
+
+\bibitem{bird2009natural}
+Bird, S., Klein, E., Loper, E.: Natural Language Processing with {Python}.
+  O'Reilly Media (2009)
+
+\bibitem{bourlard1994connectionist}
+Bourlard, H.A., Morgan, N.: Connectionist Speech Recognition: A Hybrid
+  Approach. Kluwer Academic Publishers (1994)
+
+\bibitem{brants2000tnt}
+Brants, T.: {TnT}: A statistical part-of-speech tagger. In: Proceedings of the
+  Sixth Applied Natural Language Processing Conference. pp. 224--231 (2000)
+
+\bibitem{chancellor2020methods}
+Chancellor, S., De~Choudhury, M.: Methods in predictive techniques for mental
+  health status on social media: A critical review. npj Digital Medicine
+  \textbf{3}, ~43 (2020)
+
+\bibitem{chen1999empirical}
+Chen, S.F., Goodman, J.: An empirical study of smoothing techniques for
+  language modeling. Computer Speech \& Language  \textbf{13}(4),  359--394
+  (1999)
+
+\bibitem{coppersmith2014quantifying}
+Coppersmith, G., Dredze, M., Harman, C.: Quantifying mental health signals in
+  {Twitter}. In: Proceedings of the Workshop on Computational Linguistics and
+  Clinical Psychology: From Linguistic Signal to Clinical Reality. pp. 51--60.
+  Association for Computational Linguistics (2014)
+
+\bibitem{damerau1964technique}
+Damerau, F.J.: A technique for computer detection and correction of spelling
+  errors. Communications of the ACM  \textbf{7}(3),  171--176 (1964)
+
+\bibitem{danescu2013no}
+Danescu-Niculescu-Mizil, C., West, R., Jurafsky, D., Leskovec, J., Potts, C.:
+  No country for old members: User lifecycle and linguistic change in online
+  communities. In: Proceedings of the 22nd International Conference on World
+  Wide Web. pp. 307--318 (2013)
+
+\bibitem{dechoudhury2013predicting}
+De~Choudhury, M., Gamon, M., Counts, S., Horvitz, E.: Predicting depression via
+  social media. In: Proceedings of the International AAAI Conference on Web and
+  Social Media. vol.~7, pp. 128--137 (2013)
+
+\bibitem{efron1993introduction}
+Efron, B., Tibshirani, R.J.: An Introduction to the Bootstrap. Chapman \& Hall
+  (1993)
+
+\bibitem{erisk2026}
+{eRisk organisers}: {eRisk} 2026: Early risk prediction on the internet.
+  \url{https://erisk.irlab.org/} (2026), accessed 25 Sep 2026
+
+\bibitem{esuli2006sentiwordnet}
+Esuli, A., Sebastiani, F.: {SentiWordNet}: A publicly available lexical
+  resource for opinion mining. In: Proceedings of the Fifth International
+  Conference on Language Resources and Evaluation (LREC'06). pp. 417--422
+  (2006)
+
+\bibitem{francis1979brown}
+Francis, W.N., Ku{\v{c}}era, H.: Brown Corpus Manual. Department of
+  Linguistics, Brown University, Providence, RI (1979)
+
+\bibitem{geirhos2020shortcut}
+Geirhos, R., Jacobsen, J.H., Michaelis, C., Zemel, R., Brendel, W., Bethge, M.,
+  Wichmann, F.A.: Shortcut learning in deep neural networks. Nature Machine
+  Intelligence  \textbf{2}(11),  665--673 (2020)
+
+\bibitem{guntuku2017detecting}
+Guntuku, S.C., Yaden, D.B., Kern, M.L., Ungar, L.H., Eichstaedt, J.C.:
+  Detecting depression and mental illness on social media: An integrative
+  review. Current Opinion in Behavioral Sciences  \textbf{18},  43--49 (2017)
+
+\bibitem{haveliwala2002topic}
+Haveliwala, T.H.: Topic-sensitive {PageRank}. In: Proceedings of the 11th
+  International Conference on World Wide Web. pp. 517--526 (2002)
+
+\bibitem{hu2004mining}
+Hu, M., Liu, B.: Mining and summarizing customer reviews. In: Proceedings of
+  the Tenth ACM SIGKDD International Conference on Knowledge Discovery and Data
+  Mining. pp. 168--177 (2004)
+
+\bibitem{hutto2014vader}
+Hutto, C.J., Gilbert, E.: {VADER}: A parsimonious rule-based model for
+  sentiment analysis of social media text. In: Proceedings of the International
+  AAAI Conference on Web and Social Media. vol.~8, pp. 216--225 (2014)
+
+\bibitem{jelinek1980interpolated}
+Jelinek, F., Mercer, R.L.: Interpolated estimation of {Markov} source
+  parameters from sparse data. In: Proceedings of the Workshop on Pattern
+  Recognition in Practice. pp. 381--397. North-Holland (1980)
+
+\bibitem{jurafsky2024speech}
+Jurafsky, D., Martin, J.H.: Speech and language processing. 3rd edn. draft,
+  \url{https://web.stanford.edu/~jurafsky/slp3/} (2024)
+
+\bibitem{kernighan1990spelling}
+Kernighan, M.D., Church, K.W., Gale, W.A.: A spelling correction program based
+  on a noisy channel model. In: Proceedings of the 13th International
+  Conference on Computational Linguistics (COLING 1990) (1990)
+
+\bibitem{kumar2026triage}
+Kumar, B., Pereira, N.J.S., Varun, B.: Synthetic chain-of-thought mental
+  health-triage adapter. IASNLP 2026 summer school project report (2026)
+
+\bibitem{kurdi2016natural}
+Kurdi, M.Z.: Natural Language Processing and Computational Linguistics: Speech,
+  Morphology and Syntax. Wiley-ISTE (2016)
+
+\bibitem{lafferty2001conditional}
+Lafferty, J., McCallum, A., Pereira, F.C.N.: Conditional random fields:
+  Probabilistic models for segmenting and labeling sequence data. In:
+  Proceedings of the Eighteenth International Conference on Machine Learning.
+  pp. 282--289 (2001)
+
+\bibitem{lesk1986automatic}
+Lesk, M.: Automatic sense disambiguation using machine readable dictionaries:
+  How to tell a pine cone from an ice cream cone. In: Proceedings of the 5th
+  Annual International Conference on Systems Documentation. pp. 24--26 (1986)
+
+\bibitem{lin1998information}
+Lin, D.: An information-theoretic definition of similarity. In: Proceedings of
+  the Fifteenth International Conference on Machine Learning. pp. 296--304
+  (1998)
+
+\bibitem{losada2016test}
+Losada, D.E., Crestani, F.: A test collection for research on depression and
+  language use. In: Experimental IR Meets Multilinguality, Multimodality, and
+  Interaction (CLEF 2016). Lecture Notes in Computer Science, vol.~9822, pp.
+  28--39. Springer (2016)
+
+\bibitem{magnini2002role}
+Magnini, B., Strapparava, C., Pezzulo, G., Gliozzo, A.: The role of domain
+  information in word sense disambiguation. Natural Language Engineering
+  \textbf{8}(4),  359--373 (2002)
+
+\bibitem{marcus1993building}
+Marcus, M.P., Santorini, B., Marcinkiewicz, M.A.: Building a large annotated
+  corpus of {English}: The {Penn Treebank}. Computational Linguistics
+  \textbf{19}(2),  313--330 (1993)
+
+\bibitem{mihalcea2004textrank}
+Mihalcea, R., Tarau, P.: {TextRank}: Bringing order into text. In: Proceedings
+  of the 2004 Conference on Empirical Methods in Natural Language Processing.
+  pp. 404--411 (2004)
+
+\bibitem{miller1995wordnet}
+Miller, G.A.: {WordNet}: A lexical database for {English}. Communications of
+  the ACM  \textbf{38}(11),  39--41 (1995)
+
+\bibitem{okazaki2007crfsuite}
+Okazaki, N.: {CRFsuite}: A fast implementation of conditional random fields
+  ({CRFs}). \url{http://www.chokkan.org/software/crfsuite/} (2007)
+
+\bibitem{parapar2024erisk}
+Parapar, J., Mart{\'\i}n-Rodilla, P., Losada, D.E., Crestani, F.: Overview of
+  {eRisk} 2024: Early risk prediction on the internet. In: Experimental IR
+  Meets Multilinguality, Multimodality, and Interaction (CLEF 2024). Lecture
+  Notes in Computer Science, Springer (2024)
+
+\bibitem{pedregosa2011scikit}
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
+  O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,
+  Passos, A., Cournapeau, D., Brucher, M., Perrot, M., Duchesnay, {\'E}.:
+  Scikit-learn: Machine learning in {Python}. Journal of Machine Learning
+  Research  \textbf{12},  2825--2830 (2011)
+
+\bibitem{petrov2012universal}
+Petrov, S., Das, D., McDonald, R.: A universal part-of-speech tagset. In:
+  Proceedings of the Eighth International Conference on Language Resources and
+  Evaluation (LREC'12). pp. 2089--2096 (2012)
+
+\bibitem{rabiner1989tutorial}
+Rabiner, L.R.: A tutorial on hidden {Markov} models and selected applications
+  in speech recognition. Proceedings of the IEEE  \textbf{77}(2),  257--286
+  (1989)
+
+\bibitem{resnik1995using}
+Resnik, P.: Using information content to evaluate semantic similarity in a
+  taxonomy. In: Proceedings of the 14th International Joint Conference on
+  Artificial Intelligence. pp. 448--453 (1995)
+
+\bibitem{rude2004language}
+Rude, S., Gortner, E.M., Pennebaker, J.: Language use of depressed and
+  depression-vulnerable college students. Cognition and Emotion
+  \textbf{18}(8),  1121--1133 (2004)
+
+\bibitem{tausczik2010psychological}
+Tausczik, Y.R., Pennebaker, J.W.: The psychological meaning of words: {LIWC}
+  and computerized text analysis methods. Journal of Language and Social
+  Psychology  \textbf{29}(1),  24--54 (2010)
+
+\bibitem{tsakalidis2022overview}
+Tsakalidis, A., Chim, J., Bilal, I.M., Zirikly, A., Atzil-Slonim, D., Nanni,
+  F., Resnik, P., Gaur, M., Roy, K., Inkster, B., Leintz, J., Liakata, M.:
+  Overview of the {CLPsych} 2022 shared task: Capturing moments of change in
+  longitudinal user posts. In: Proceedings of the Eighth Workshop on
+  Computational Linguistics and Clinical Psychology. Association for
+  Computational Linguistics (2022)
+
+\bibitem{tsakalidis2022identifying}
+Tsakalidis, A., Nanni, F., Hills, A., Chim, J., Song, J., Liakata, M.:
+  Identifying moments of change from longitudinal user text. In: Proceedings of
+  the 60th Annual Meeting of the Association for Computational Linguistics
+  (Volume 1: Long Papers). Association for Computational Linguistics (2022)
+
+\bibitem{tseriotou2025overview}
+Tseriotou, T., Chim, J., Klein, A., Shamir, A., Dvir, G., Ali, I., Kennedy, C.,
+  Kohli, G.S., Hills, A., Zirikly, A., Atzil-Slonim, D., Liakata, M.: Overview
+  of the {CLPsych} 2025 shared task: Capturing mental health dynamics from
+  social media timelines. In: Proceedings of the 10th Workshop on Computational
+  Linguistics and Clinical Psychology. Association for Computational
+  Linguistics (2025)
+
+\bibitem{viterbi1967error}
+Viterbi, A.: Error bounds for convolutional codes and an asymptotically optimum
+  decoding algorithm. IEEE Transactions on Information Theory  \textbf{13}(2),
+  260--269 (1967)
+
+\bibitem{wu1994verb}
+Wu, Z., Palmer, M.: Verb semantics and lexical selection. In: Proceedings of
+  the 32nd Annual Meeting of the Association for Computational Linguistics. pp.
+  133--138 (1994)
+
+\end{thebibliography}

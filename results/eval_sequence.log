@@ -1,0 +1,97 @@
+Main comparison (all features)
+  Majority (all O)       macroF1 0.266±0.000 S 0.000 E 0.000
+  MaxEnt                 macroF1 0.547±0.002 S 0.476 E 0.420
+  Gaussian HMM           macroF1 0.567±0.008 S 0.508 E 0.469
+  Hybrid HMM (prior-divided) macroF1 0.542±0.005 S 0.357 E 0.471
+  Hybrid HMM (balanced)  macroF1 0.532±0.013 S 0.335 E 0.467
+  CRF (Viterbi)          macroF1 0.533±0.011 S 0.374 E 0.416
+  CRF (prior-corrected)  macroF1 0.563±0.008 S 0.472 E 0.481
+Length-only baselines
+  MaxEnt                 macroF1 0.572±0.008 S 0.483 E 0.470
+  Gaussian HMM           macroF1 0.493±0.024 S 0.210 E 0.457
+  Hybrid HMM (balanced)  macroF1 0.425±0.018 S 0.192 E 0.285
+Feature-group ablations
+ - without LEN
+  MaxEnt                 macroF1 0.535±0.010 S 0.455 E 0.424
+  Gaussian HMM           macroF1 0.545±0.007 S 0.485 E 0.458
+  Hybrid HMM (balanced)  macroF1 0.519±0.017 S 0.290 E 0.465
+  CRF (prior-corrected)  macroF1 0.549±0.019 S 0.455 E 0.486
+ - without LEX
+  MaxEnt                 macroF1 0.580±0.006 S 0.510 E 0.485
+  Gaussian HMM           macroF1 0.583±0.013 S 0.507 E 0.490
+  Hybrid HMM (balanced)  macroF1 0.561±0.013 S 0.390 E 0.501
+  CRF (prior-corrected)  macroF1 0.566±0.012 S 0.494 E 0.473
+ - without SENT
+  MaxEnt                 macroF1 0.562±0.006 S 0.492 E 0.443
+  Gaussian HMM           macroF1 0.562±0.007 S 0.491 E 0.490
+  Hybrid HMM (balanced)  macroF1 0.536±0.011 S 0.387 E 0.424
+  CRF (prior-corrected)  macroF1 0.549±0.007 S 0.467 E 0.442
+ - without SELF
+  MaxEnt                 macroF1 0.544±0.006 S 0.471 E 0.417
+  Gaussian HMM           macroF1 0.525±0.011 S 0.487 E 0.438
+  Hybrid HMM (balanced)  macroF1 0.540±0.009 S 0.349 E 0.476
+  CRF (prior-corrected)  macroF1 0.553±0.012 S 0.482 E 0.443
+ - without DRIFT
+  MaxEnt                 macroF1 0.554±0.007 S 0.474 E 0.434
+  Gaussian HMM           macroF1 0.567±0.005 S 0.496 E 0.480
+  Hybrid HMM (balanced)  macroF1 0.528±0.015 S 0.339 E 0.446
+  CRF (prior-corrected)  macroF1 0.567±0.006 S 0.477 E 0.487
+ - without TIME
+  MaxEnt                 macroF1 0.562±0.013 S 0.484 E 0.448
+  Gaussian HMM           macroF1 0.573±0.008 S 0.477 E 0.482
+  Hybrid HMM (balanced)  macroF1 0.540±0.016 S 0.354 E 0.475
+  CRF (prior-corrected)  macroF1 0.561±0.010 S 0.479 E 0.472
+ - without PERS
+  MaxEnt                 macroF1 0.567±0.012 S 0.484 E 0.457
+  Gaussian HMM           macroF1 0.579±0.018 S 0.511 E 0.506
+  Hybrid HMM (balanced)  macroF1 0.532±0.014 S 0.307 E 0.487
+  CRF (prior-corrected)  macroF1 0.576±0.018 S 0.470 E 0.516
+ - without any length feature
+  MaxEnt                 macroF1 0.539±0.012 S 0.456 E 0.437
+  Gaussian HMM           macroF1 0.542±0.015 S 0.487 E 0.464
+  Hybrid HMM (balanced)  macroF1 0.524±0.018 S 0.304 E 0.465
+  CRF (prior-corrected)  macroF1 0.540±0.013 S 0.430 E 0.499
+ - only LEX
+  MaxEnt                 macroF1 0.500±0.008 S 0.389 E 0.369
+  Gaussian HMM           macroF1 0.316±0.019 S 0.315 E 0.333
+  Hybrid HMM (balanced)  macroF1 0.392±0.024 S 0.123 E 0.249
+  CRF (prior-corrected)  macroF1 0.460±0.016 S 0.372 E 0.349
+ - only DRIFT
+  MaxEnt                 macroF1 0.389±0.004 S 0.369 E 0.337
+  Gaussian HMM           macroF1 0.474±0.020 S 0.261 E 0.383
+  Hybrid HMM (balanced)  macroF1 0.266±0.000 S 0.000 E 0.000
+  CRF (prior-corrected)  macroF1 0.402±0.017 S 0.368 E 0.367
+ - only SENT
+  MaxEnt                 macroF1 0.446±0.014 S 0.360 E 0.427
+  Gaussian HMM           macroF1 0.412±0.009 S 0.281 E 0.173
+  Hybrid HMM (balanced)  macroF1 0.280±0.003 S 0.000 E 0.055
+  CRF (prior-corrected)  macroF1 0.420±0.011 S 0.375 E 0.427
+ - only PERS
+  MaxEnt                 macroF1 0.515±0.011 S 0.480 E 0.404
+  Gaussian HMM           macroF1 0.533±0.011 S 0.396 E 0.422
+  Hybrid HMM (balanced)  macroF1 0.319±0.005 S 0.120 E 0.050
+  CRF (prior-corrected)  macroF1 0.494±0.006 S 0.430 E 0.399
+Lexicon variants (all features, lexicon built differently)
+ - seeds
+  Gaussian HMM           macroF1 0.547±0.013 S 0.509 E 0.435
+  Hybrid HMM (balanced)  macroF1 0.537±0.015 S 0.361 E 0.465
+ - no_wsd
+  Gaussian HMM           macroF1 0.564±0.007 S 0.505 E 0.465
+  Hybrid HMM (balanced)  macroF1 0.530±0.009 S 0.336 E 0.461
+ - no_negation
+  Gaussian HMM           macroF1 0.568±0.011 S 0.508 E 0.468
+  Hybrid HMM (balanced)  macroF1 0.524±0.012 S 0.338 E 0.447
+ - no_speller
+  Gaussian HMM           macroF1 0.567±0.008 S 0.508 E 0.471
+  Hybrid HMM (balanced)  macroF1 0.529±0.011 S 0.328 E 0.468
+Paired bootstrap over timelines
+  Gaussian HMM vs MaxEnt [macro_f1]: diff +0.020, p=0.157
+  Gaussian HMM vs MaxEnt [f1_escalation]: diff +0.049, p=0.086
+  Gaussian HMM vs MaxEnt [f1_switch]: diff +0.032, p=0.087
+  Gaussian HMM vs MaxEnt (length only) [macro_f1]: diff -0.006, p=0.599
+  Gaussian HMM vs MaxEnt (length only) [f1_escalation]: diff -0.001, p=0.515
+  Gaussian HMM vs MaxEnt (length only) [f1_switch]: diff +0.025, p=0.139
+  Gaussian HMM vs Majority [macro_f1]: diff +0.301, p=0.000
+  Gaussian HMM vs Majority [f1_escalation]: diff +0.469, p=0.000
+  Gaussian HMM vs Majority [f1_switch]: diff +0.508, p=0.000
+saved results/sequence_eval.json

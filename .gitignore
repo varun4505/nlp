@@ -1,0 +1,23 @@
+# derived from data under data-use agreements: never commit
+data/processed/
+# large or regenerable
+models/*.pkl
+results/*.pkl
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.blg
+paper/*.out
+# screenshot of a real CLPsych timeline (ID + gold labels), and the decks that embed it
+presentation/assets/app_labelled_chart.png
+# Streamlit screenshots (old sidebar/tab text, real timeline IDs); kept locally for the deck
+presentation/assets/app_*.png
+presentation/*.pptx
+# web frontend
+web/node_modules/
+web/.next/
+web/out/
+web/.env*
+web/next-env.d.ts
+*.tsbuildinfo

@@ -1,0 +1,15 @@
+nltk>=3.9
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+scikit-learn>=1.4
+sklearn-crfsuite>=0.5
+streamlit>=1.40
+plotly>=5.20
+matplotlib>=3.8
+# web frontend backend (api/server.py)
+fastapi>=0.110
+uvicorn>=0.29
+edge-tts>=7.0
+# After installing, fetch the NLTK data once:
+# python -c "import nltk; [nltk.download(p) for p in ['wordnet','omw-1.4','wordnet_ic','sentiwordnet','brown','treebank','punkt','punkt_tab','vader_lexicon','words','universal_tagset','stopwords','averaged_perceptron_tagger_eng']]"

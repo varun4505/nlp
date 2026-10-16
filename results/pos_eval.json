@@ -1,0 +1,18 @@
+{
+ "train_sentences": 51606,
+ "train_tokens": 1043271,
+ "hmm_brown_test": {
+  "accuracy": 0.9693608432764308,
+  "unknown_accuracy": 0.8274978650725875,
+  "tokens": 117921,
+  "unknown_tokens": 2342
+ },
+ "hmm_treebank": {
+  "accuracy": 0.8892029038798945,
+  "unknown_accuracy": 0.6132978079205522,
+  "tokens": 95183,
+  "unknown_tokens": 8257
+ },
+ "perceptron_brown_test": 0.9197852799755769,
+ "perceptron_treebank": 0.96095941502159
+}

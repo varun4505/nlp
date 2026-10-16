@@ -1,0 +1,60 @@
+saved fig_models
+saved fig_ablation
+saved fig_signals
+saved fig_transitions
+saved fig_lm
+saved fig_lexicon
+saved fig_example
+{
+ "median_words": 45.99999999999999,
+ "MaxEnt (length only)": {
+  "short": [
+   0.3114909781576448,
+   0.0
+  ],
+  "long": [
+   0.36893665040810775,
+   0.014864012040969116
+  ]
+ },
+ "MaxEnt": {
+  "short": [
+   0.3931363694259741,
+   0.003053227703859693
+  ],
+  "long": [
+   0.46345672320580833,
+   0.0070488274961489975
+  ]
+ },
+ "Gaussian HMM": {
+  "short": [
+   0.3734634948845991,
+   0.011008538339368828
+  ],
+  "long": [
+   0.41261026812762625,
+   0.005314376959253617
+  ]
+ },
+ "CRF (prior-corrected)": {
+  "short": [
+   0.40383426352802543,
+   0.027545043152453104
+  ],
+  "long": [
+   0.4945087572064518,
+   0.012585676848190768
+  ]
+ },
+ "bootstrap_extra": {
+  "CRF (prior-corrected) vs MaxEnt (length only) [macro_f1]": {
+   "diff": -0.009592528593314609,
+   "p": 0.674
+  },
+  "CRF (prior-corrected) vs MaxEnt (length only) [f1_escalation]": {
+   "diff": 0.010977670339845147,
+   "p": 0.364
+  }
+ }
+}

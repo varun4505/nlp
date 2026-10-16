@@ -1,0 +1,103 @@
+{
+ "seeds": {
+  "n_posts": 236,
+  "spearman_net": 0.3063669671948791,
+  "spearman_mal": -0.4128541588487727,
+  "spearman_ada": -0.02488465957980372,
+  "spearman_net_ci": [
+   0.19480018986735104,
+   0.4145772800181399
+  ],
+  "mal_span_recall": 0.31382113821138213,
+  "mal_hit_precision": 0.41495327102803736,
+  "mal_n_spans": 615,
+  "mal_n_hits": 535,
+  "ada_span_recall": 0.2648305084745763,
+  "ada_hit_precision": 0.2796420581655481,
+  "ada_n_spans": 472,
+  "ada_n_hits": 447,
+  "coverage": 0.8135593220338984
+ },
+ "full": {
+  "n_posts": 236,
+  "spearman_net": 0.4286426901002068,
+  "spearman_mal": -0.4703643906622987,
+  "spearman_ada": -0.011087445523421646,
+  "spearman_net_ci": [
+   0.3217009662844084,
+   0.522506396045558
+  ],
+  "spearman_vader": 0.3570100330109801,
+  "spearman_vader_ci": [
+   0.23564987499874696,
+   0.4715719026423682
+  ],
+  "spearman_len": -0.05963255474030148,
+  "mal_span_recall": 0.39186991869918697,
+  "mal_hit_precision": 0.3794749403341289,
+  "mal_n_spans": 615,
+  "mal_n_hits": 838,
+  "ada_span_recall": 0.2711864406779661,
+  "ada_hit_precision": 0.24863883847549909,
+  "ada_n_spans": 472,
+  "ada_n_hits": 551,
+  "coverage": 0.8432203389830508
+ },
+ "no_wsd": {
+  "n_posts": 236,
+  "spearman_net": 0.4293301429556025,
+  "spearman_mal": -0.4629376170042101,
+  "spearman_ada": -0.019207574724131378,
+  "spearman_net_ci": [
+   0.3194818850003366,
+   0.5258798312068746
+  ],
+  "mal_span_recall": 0.4032520325203252,
+  "mal_hit_precision": 0.3656884875846501,
+  "mal_n_spans": 615,
+  "mal_n_hits": 886,
+  "ada_span_recall": 0.288135593220339,
+  "ada_hit_precision": 0.2465034965034965,
+  "ada_n_spans": 472,
+  "ada_n_hits": 572,
+  "coverage": 0.847457627118644
+ },
+ "no_negation": {
+  "n_posts": 236,
+  "spearman_net": 0.44100460604961683,
+  "spearman_mal": -0.4708305992153185,
+  "spearman_ada": -0.028838461473919746,
+  "spearman_net_ci": [
+   0.328873593258278,
+   0.5338606271300085
+  ],
+  "mal_span_recall": 0.3951219512195122,
+  "mal_hit_precision": 0.37589498806682575,
+  "mal_n_spans": 615,
+  "mal_n_hits": 838,
+  "ada_span_recall": 0.2775423728813559,
+  "ada_hit_precision": 0.24143835616438356,
+  "ada_n_spans": 472,
+  "ada_n_hits": 584,
+  "coverage": 0.847457627118644
+ },
+ "no_speller": {
+  "n_posts": 236,
+  "spearman_net": 0.42979788116185136,
+  "spearman_mal": -0.4716337628977553,
+  "spearman_ada": -0.011087445523421646,
+  "spearman_net_ci": [
+   0.32251761010377944,
+   0.5236231471986165
+  ],
+  "mal_span_recall": 0.39186991869918697,
+  "mal_hit_precision": 0.37992831541218636,
+  "mal_n_spans": 615,
+  "mal_n_hits": 837,
+  "ada_span_recall": 0.2711864406779661,
+  "ada_hit_precision": 0.24863883847549909,
+  "ada_n_spans": 472,
+  "ada_n_hits": 551,
+  "coverage": 0.8432203389830508
+ }
+}

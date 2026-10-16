@@ -1,0 +1,71 @@
+{
+ "train_tokens": 1500415,
+ "dev_tokens": 60057,
+ "clpsych_test_tokens": 61942,
+ "rows": [
+  {
+   "model": "1-gram",
+   "smoothing": "Laplace (add-1)",
+   "k": 1.0,
+   "dev_pp": 825.3615918069122,
+   "clpsych_pp": 604.4607755036719
+  },
+  {
+   "model": "1-gram",
+   "smoothing": "add-k (k tuned on dev)",
+   "k": 0.001,
+   "dev_pp": 820.346997711497,
+   "clpsych_pp": 597.1204235126777
+  },
+  {
+   "model": "2-gram",
+   "smoothing": "Laplace (add-1)",
+   "k": 1.0,
+   "dev_pp": 1787.740265576472,
+   "clpsych_pp": 1334.8715080773466
+  },
+  {
+   "model": "2-gram",
+   "smoothing": "add-k (k tuned on dev)",
+   "k": 0.005,
+   "dev_pp": 402.6639624096063,
+   "clpsych_pp": 276.4444275640075
+  },
+  {
+   "model": "2-gram",
+   "smoothing": "Jelinek-Mercer interpolation",
+   "lambdas": [
+    0.3,
+    0.7
+   ],
+   "dev_pp": 253.97646548251348,
+   "clpsych_pp": 191.7938097298255
+  },
+  {
+   "model": "3-gram",
+   "smoothing": "Laplace (add-1)",
+   "k": 1.0,
+   "dev_pp": 10108.30518419271,
+   "clpsych_pp": 10541.158429119736
+  },
+  {
+   "model": "3-gram",
+   "smoothing": "add-k (k tuned on dev)",
+   "k": 0.001,
+   "dev_pp": 1597.3337347705665,
+   "clpsych_pp": 1628.5760376454136
+  },
+  {
+   "model": "3-gram",
+   "smoothing": "Jelinek-Mercer interpolation",
+   "lambdas": [
+    0.3,
+    0.5,
+    0.2
+   ],
+   "dev_pp": 209.21327223524685,
+   "clpsych_pp": 175.76565728347381
+  }
+ ],
+ "vocab": 33372
+}

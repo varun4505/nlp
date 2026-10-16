@@ -1,0 +1,6 @@
+full/train: 30 timelines in 5s
+full/test: 10 timelines in 1s
+seeds/train: 30 timelines in 2s
+no_wsd/train: 30 timelines in 2s
+no_negation/train: 30 timelines in 2s
+no_speller/train: 30 timelines in 2s

@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f7f5f1;
+  --surface: #ffffff;
+  --surface-2: #f1eee8;
+  --line: #e4dfd6;
+  --ink: #1d1b18;
+  --ink-2: #57524a;
+  --ink-3: #8a847a;
+  --accent: #5b4bdb;
+  --accent-soft: #ece9ff;
+  --mal: #d4462f;
+  --mal-soft: #fbe3de;
+  --ada: #1e9467;
+  --ada-soft: #dcf3e9;
+  --st-o: #9a958c;
+  --st-s: #2a78d6;
+  --st-e: #e5672b;
+  --st-b: #1baf7a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12110f;
+    --surface: #1b1a17;
+    --surface-2: #24221e;
+    --line: #34312b;
+    --ink: #f1ede6;
+    --ink-2: #bdb6aa;
+    --ink-3: #8a847a;
+    --accent: #9a8cff;
+    --accent-soft: #2a2550;
+    --mal: #ff7a63;
+    --mal-soft: #3d1f1a;
+    --ada: #4fd3a0;
+    --ada-soft: #173329;
+    --st-o: #77726a;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-mal: var(--mal);
+  --color-mal-soft: var(--mal-soft);
+  --color-ada: var(--ada);
+  --color-ada-soft: var(--ada-soft);
+  --color-st-o: var(--st-o);
+  --color-st-s: var(--st-s);
+  --color-st-e: var(--st-e);
+  --color-st-b: var(--st-b);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-instrument), Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--accent-soft);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+
+.input {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.55rem 0.8rem;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  font-weight: 550;
+  font-size: 0.9rem;
+  transition: transform 0.1s, background 0.15s, opacity 0.15s;
+}
+.btn:active {
+  transform: scale(0.97);
+}
+.btn-primary {
+  background: var(--accent);
+  color: white;
+}
+.btn-primary:hover {
+  opacity: 0.92;
+}
+.btn-ghost {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+.btn-ghost:hover {
+  background: var(--surface-2);
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.kbd {
+  font-family: var(--font-geist-mono);
+  font-size: 0.8em;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.05rem 0.35rem;
+}
+
+@keyframes wave {
+  0%, 100% { transform: scaleY(0.35); }
+  50% { transform: scaleY(1); }
+}
+.wave span {
+  display: inline-block;
+  width: 3px;
+  height: 14px;
+  margin: 0 1px;
+  border-radius: 2px;
+  background: var(--accent);
+  animation: wave 0.9s ease-in-out infinite;
+}
+.wave span:nth-child(2) { animation-delay: 0.15s; }
+.wave span:nth-child(3) { animation-delay: 0.3s; }
+.wave span:nth-child(4) { animation-delay: 0.45s; }

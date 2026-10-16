@@ -1,0 +1,5 @@
+Levenshtein + unigram prior                   alpha=1 acc=0.888 unchanged=0.000 {'insertion': 0.9896907216494846, 'deletion': 0.69375, 'transposition': 0.9128440366972477, 'sub-random': 0.9, 'sub-adjacent': 0.9032258064516129}
+Weighted DL + unigram prior                   alpha=4 acc=0.907 unchanged=0.000 {'insertion': 0.9948453608247423, 'deletion': 0.6625, 'transposition': 0.963302752293578, 'sub-random': 0.8722222222222222, 'sub-adjacent': 0.9717741935483871}
+Weighted DL + bigram context                  alpha=4 acc=0.953 unchanged=0.000 {'insertion': 0.9896907216494846, 'deletion': 0.84375, 'transposition': 0.9862385321100917, 'sub-random': 0.9555555555555556, 'sub-adjacent': 0.9637096774193549}
+Weighted DL + bigram context + keep option    alpha=1 acc=0.941 unchanged=0.011 {'insertion': 0.9896907216494846, 'deletion': 0.85625, 'transposition': 0.9541284403669725, 'sub-random': 0.95, 'sub-adjacent': 0.9395161290322581}
+real OOV 341 0.6275659824046921 0.8914956011730205

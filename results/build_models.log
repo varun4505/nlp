@@ -1,0 +1,8 @@
+[14:12:23] lexicon: 1760 words, 312 vetoed
+[14:12:31] POS: {"train_sentences": 51606, "train_tokens": 1043271, "hmm_brown_test": {"accuracy": 0.9693608432764308, "unknown_accuracy": 0.8274978650725875, "tokens": 117921, "unknown_tokens": 2342}, "hmm_treebank": {"accuracy": 0.8892029038798945, "unknown_accuracy": 0.6132978079205522, "tokens": 95183, "unknown_tokens": 8257}, "perceptron_brown_test": 0.9197852799755769, "perceptron_treebank": 0.96095941502159}
+[14:12:38] LM corpus: 1500415 train tokens, 60057 dev tokens
+[14:12:40] LM n=1: {"model": "1-gram", "smoothing": "add-k (k tuned on dev)", "k": 0.001, "dev_pp": 820.346997711497, "clpsych_pp": 597.1204235126777}
+[14:12:43] LM n=2: {"model": "2-gram", "smoothing": "Jelinek-Mercer interpolation", "lambdas": [0.3, 0.7], "dev_pp": 253.97646548251348, "clpsych_pp": 191.7938097298255}
+[14:12:52] LM n=3: {"model": "3-gram", "smoothing": "Jelinek-Mercer interpolation", "lambdas": [0.3, 0.5, 0.2], "dev_pp": 209.21327223524685, "clpsych_pp": 175.76565728347381}
+[14:12:53] speller: dictionary 268660 words, prior over 48241 types
+[14:12:54] done
